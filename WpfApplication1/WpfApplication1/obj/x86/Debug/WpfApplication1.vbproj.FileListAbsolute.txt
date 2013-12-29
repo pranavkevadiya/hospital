@@ -1,0 +1,38 @@
+C:\Users\HariAum\AppData\Local\Temporary Projects\WpfApplication1\bin\Debug\WpfApplication1.exe
+C:\Users\HariAum\AppData\Local\Temporary Projects\WpfApplication1\bin\Debug\WpfApplication1.pdb
+C:\Users\HariAum\AppData\Local\Temporary Projects\WpfApplication1\bin\Debug\WpfApplication1.xml
+C:\Users\HariAum\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\HariAum\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\MainWindow.baml
+C:\Users\HariAum\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\MainWindow.g.vb
+C:\Users\HariAum\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\Application.g.vb
+C:\Users\HariAum\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\HariAum\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\WpfApplication1.g.resources
+C:\Users\HariAum\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\WpfApplication1.Resources.resources
+C:\Users\HariAum\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\HariAum\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\HariAum\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\WpfApplication1.exe
+C:\Users\HariAum\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\WpfApplication1.xml
+C:\Users\HariAum\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\WpfApplication1.pdb
+C:\Users\HariAum\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+C:\Users\HariAum\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\obj\x86\Debug\WpfApplication1.exe
+C:\Users\HariAum\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\obj\x86\Debug\WpfApplication1.xml
+C:\Users\HariAum\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\obj\x86\Debug\WpfApplication1.pdb
+C:\Users\HariAum\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe
+C:\Users\HariAum\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.pdb
+C:\Users\HariAum\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.xml
+C:\Users\HariAum\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\HariAum\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\obj\x86\Debug\MainWindow.baml
+C:\Users\HariAum\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\obj\x86\Debug\MainWindow.g.vb
+C:\Users\HariAum\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\obj\x86\Debug\Application.g.vb
+C:\Users\HariAum\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\obj\x86\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\HariAum\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\obj\x86\Debug\WpfApplication1.g.resources
+C:\Users\HariAum\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\obj\x86\Debug\WpfApplication1.Resources.resources
+C:\Users\HariAum\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\HariAum\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\HariAum\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\HariAum\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\obj\x86\Debug\Window1.baml
+C:\Users\HariAum\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\obj\x86\Debug\Window1.g.vb
+C:\Users\HariAum\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe.manifest
+C:\Users\HariAum\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.application
+C:\Users\HariAum\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\obj\x86\Debug\WpfApplication1.exe.manifest
+C:\Users\HariAum\documents\visual studio 2010\Projects\WpfApplication1\WpfApplication1\obj\x86\Debug\WpfApplication1.application
