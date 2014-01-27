@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="VisitInfoPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid Margin="10">
+        <DataGrid Name="dgUsers" AutoGenerateColumns="False" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Visit Date" Binding="{Binding visitDate}" Width="80" IsReadOnly="True" />
+                <DataGridTextColumn Header="Medicines Given" Binding="{Binding medication}" Width="AUTO" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Disease" Binding="{Binding disease}" Width="100" IsReadOnly="True"/>
+            </DataGrid.Columns>
+            
+        </DataGrid>
+    </Grid>
+
+</UserControl>

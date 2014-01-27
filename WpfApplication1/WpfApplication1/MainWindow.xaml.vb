@@ -21,13 +21,6 @@ Class MainWindow
         'Dim output As BindingSource = DataAccess.GetRecords()
 
         Dim conn As New MySqlConnection
-        'Dim myConnectionString As String
-
-        'myConnectionString = "server=127.0.0.1;" _
-        '           & "uid=root;" _
-        '          & "pwd=root;" _
-        '         & "database=newlifehospital;"
-
         Try
             conn.ConnectionString = DataAccess.GetConnectionString("databaseConnection")
             conn.Open()

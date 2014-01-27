@@ -1,0 +1,13 @@
+﻿
+Constuctor
+    Sub New(ByVal p1 As String, ByVal p2 As String, ByVal p As String)
+        ' TODO: Complete member initialization 
+        mUserName = p1
+        mBirthday = p2
+    End Sub
+
+Dim ada As New MySqlDataAdapter(lv_sqlCommand)
+        Dim ds As New DataSet
+
+        ada.Fill(ds, "visitInformation")
+

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NewLifeHospital
+</name>
+</assembly>
+<members>
+<member name="M:NewLifeHospital.MainWindow.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:NewLifeHospital.MainWindow">
+	<summary>
+MainWindow
+</summary>
+</member><member name="M:NewLifeHospital.PrescriptionRow.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:NewLifeHospital.PrescriptionRow">
+	<summary>
+PrescriptionRow
+</summary>
+</member><member name="M:NewLifeHospital.NewPatient.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:NewLifeHospital.NewPatient">
+	<summary>
+NewPatient
+</summary>
+</member><member name="M:NewLifeHospital.VisitInfoPage.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:NewLifeHospital.VisitInfoPage">
+	<summary>
+VisitInfoPage
+</summary>
+</member><member name="M:NewLifeHospital.PatientDetails.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:NewLifeHospital.PatientDetails">
+	<summary>
+PatientDetails
+</summary>
+</member><member name="M:NewLifeHospital.Window1.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:NewLifeHospital.Window1">
+	<summary>
+Window1
+</summary>
+</member><member name="M:NewLifeHospital.Prescription.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:NewLifeHospital.Prescription">
+	<summary>
+Prescription
+</summary>
+</member><member name="M:NewLifeHospital.Application.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:NewLifeHospital.Application.Main">
+	<summary>
+Application Entry Point.
+</summary>
+</member><member name="T:NewLifeHospital.Application">
+	<summary>
+Application
+</summary>
+</member><member name="M:NewLifeHospital.DataAccess.GetConnectionString(System.String)">
+	<summary>
+ Function to retrieve the connection from the app.config
+ </summary>
+	<param name="conName">Name of the connectionString to retrieve</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:NewLifeHospital.DataAccess.HandleConnection(MySql.Data.MySqlClient.MySqlConnection)">
+	<summary>
+ Method for handling the ConnectionState of 
+ the connection object passed to it
+ </summary>
+	<param name="conn">The SqlConnection Object</param>
+	<remarks></remarks>
+</member><member name="P:NewLifeHospital.My.MyWpfExtension.Application">
+	<summary>
+ Returns the application object for the running application
+ </summary>
+</member><member name="P:NewLifeHospital.My.MyWpfExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:NewLifeHospital.My.MyWpfExtension.User">
+	<summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member><member name="P:NewLifeHospital.My.MyWpfExtension.Log">
+	<summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member><member name="P:NewLifeHospital.My.MyWpfExtension.Windows">
+	<summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member><member name="T:NewLifeHospital.My.MyWpfExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+	<remarks></remarks>
+</member><member name="P:NewLifeHospital.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:NewLifeHospital.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:NewLifeHospital.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:NewLifeHospital.PrinterClass._font">
+	<summary>
+ Property variable for the Font the user wishes to use
+ </summary>
+	<remarks></remarks>
+</member><member name="F:NewLifeHospital.PrinterClass._text">
+	<summary>
+ Property variable for the text to be printed
+ </summary>
+	<remarks></remarks>
+</member><member name="P:NewLifeHospital.PrinterClass.TextToPrint">
+	<summary>
+ Property to hold the text that is to be printed
+ </summary>
+	<value></value>
+	<returns>A string</returns>
+	<remarks></remarks>
+</member><member name="P:NewLifeHospital.PrinterClass.PrinterFont">
+	<summary>
+ Property to hold the font the users wishes to use
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:NewLifeHospital.PrinterClass.#ctor">
+	<summary>
+ Empty constructor
+ </summary>
+	<remarks></remarks>
+</member><member name="M:NewLifeHospital.PrinterClass.#ctor(System.String)">
+	<summary>
+ Constructor to initialize our printing object
+ and the text it's supposed to be printing
+ </summary>
+	<param name="str">Text that will be printed</param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

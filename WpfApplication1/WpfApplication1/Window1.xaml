@@ -7,6 +7,7 @@
             <Label Content="Patient" Height="28" HorizontalAlignment="Left" Margin="6,22,0,0" Name="Label1" VerticalAlignment="Top" Background="Aqua" />
             <TextBox Height="23" HorizontalAlignment="Left" Margin="59,27,0,0" Name="TextBox1" VerticalAlignment="Top" Width="120" />
             <Button Content="Go" Height="23" HorizontalAlignment="Left" Margin="185,27,0,0" Name="Button1" VerticalAlignment="Top" Width="32" />
+            <Button Content="New Patient" Height="23" HorizontalAlignment="Left" Margin="231,27,0,0" Name="Button2" VerticalAlignment="Top" Width="75" />
         </Grid>
         <Grid Height="740" HorizontalAlignment="Left" Margin="0,92,0,0" Name="Grid2" VerticalAlignment="Top" Width="928">
             <Grid Height="564" Margin="16,25,0,151">
@@ -18,14 +19,12 @@
         </Grid>
         <TabControl Height="740" HorizontalAlignment="Left" Margin="12,92,0,0" Name="TabControl1" VerticalAlignment="Top" Width="922">
             <TabItem Header="Details" Name="TabItem1">
-                <Grid Height="564">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="30*" />
-                        <ColumnDefinition Width="882*" />
-                    </Grid.ColumnDefinitions>
-                </Grid>
+                
             </TabItem>
-            <TabItem Header="Last Visits" Name="TabItem2"></TabItem>
+            <TabItem Header="Last Visits" Name="TabItem2">
+            </TabItem>
+            <TabItem Header="Prescription" Name="TabItem3">
+            </TabItem>
         </TabControl>
     </Grid>
 
