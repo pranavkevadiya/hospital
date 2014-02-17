@@ -14,7 +14,7 @@ Public Class NewPatient
             DataAccess.HandleConnection(conn)
             Dim addPatient As String = "insert into patient (patientname,surname,gender,dob,address,mo,emailid) values (@name,@surname,@gender,@dob,@address,@mo,@emailid)"
             'local initializations
-            Dim name As String = Me.name.Text
+            Dim firstName As String = Me.firstName.Text
             Dim surname As String = Me.surname.Text
             Dim gender As String = "F"
             If (Me.male.IsChecked) Then
@@ -31,7 +31,7 @@ Public Class NewPatient
             Dim emailId As String = Me.emailId.Text
 
             Dim cmd As MySqlCommand = New MySqlCommand(addPatient, conn)
-            cmd.Parameters.AddWithValue("name", name)
+            cmd.Parameters.AddWithValue("name", firstName)
             cmd.Parameters.AddWithValue("surname", surname)
             cmd.Parameters.AddWithValue("emailId", emailId)
             cmd.Parameters.AddWithValue("mo", mo)

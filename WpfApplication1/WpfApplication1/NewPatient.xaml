@@ -16,7 +16,7 @@
         <Label Content="Email Id" Grid.Column="1" Height="30" HorizontalAlignment="Left" Margin="36,149,0,0" Name="Label7" VerticalAlignment="Top" />
         
         
-        <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="99,31,0,207" Name="name" Width="120" />
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="99,31,0,207" Name="firstName" Width="120" />
         <TextBox Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="99,56,0,0" Name="surname" VerticalAlignment="Top" Width="120" />
         <DatePicker Grid.Column="1" Height="25" HorizontalAlignment="Left" Margin="99,80,0,0" Name="dob" VerticalAlignment="Top" Width="120" DisplayDate="1/1/1980" />
         <RadioButton Content="Male" Grid.Column="1" Height="16" HorizontalAlignment="Left" Margin="100,108,0,0" Name="male" VerticalAlignment="Top" />

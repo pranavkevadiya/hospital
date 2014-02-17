@@ -15,7 +15,7 @@ Imports System.Windows
 <Assembly: AssemblyDescription("")> 
 <Assembly: AssemblyCompany("")> 
 <Assembly: AssemblyProduct("WpfApplication1")> 
-<Assembly: AssemblyCopyright("Copyright @  2013")> 
+<Assembly: AssemblyCopyright("Copyright @  2014")> 
 <Assembly: AssemblyTrademark("")> 
 <Assembly: ComVisible(false)>
 
@@ -42,7 +42,7 @@ Imports System.Windows
 
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("b3d3aa83-7f90-4617-aac9-3748f71c4d63")> 
+<Assembly: Guid("eea37a8b-189c-4404-9018-4650c6606318")> 
 
 ' Version information for an assembly consists of the following four values:
 '

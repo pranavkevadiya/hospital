@@ -4,6 +4,7 @@
     Private mVisitDate As String
     Private mDisease As String
     Private mMedication As String
+    Private mNote As String
 
     Public Property visitDate() As String
         Get
@@ -35,5 +36,19 @@
             'End If
         End Set
     End Property
+
+    Public Property note() As String
+        Get
+            Return mNote
+
+        End Get
+        Set(ByVal value As String)
+            'If value <> vbNull Then
+            mNote = value
+            'End If
+        End Set
+    End Property
+
+
 End Class
 

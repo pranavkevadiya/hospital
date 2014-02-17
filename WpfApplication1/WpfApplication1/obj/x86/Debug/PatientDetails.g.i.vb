@@ -138,7 +138,7 @@ Partial Public Class PatientDetails
             Return
         End If
         _contentLoaded = true
-        Dim resourceLocater As System.Uri = New System.Uri("/NewLifeHospital;component/patientdetails.xaml", System.UriKind.Relative)
+        Dim resourceLocater As System.Uri = New System.Uri("/NewLife;component/patientdetails.xaml", System.UriKind.Relative)
         
         #ExternalSource("..\..\..\PatientDetails.xaml",1)
         System.Windows.Application.LoadComponent(Me, resourceLocater)

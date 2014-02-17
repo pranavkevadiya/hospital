@@ -4,13 +4,14 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
-    <Grid Margin="10">
-        <DataGrid Name="dgUsers" AutoGenerateColumns="False" >
+             d:DesignHeight="818" d:DesignWidth="766">
+    <Grid Margin="10" Height="799" Width="754">
+        <DataGrid Name="dgUsers" AutoGenerateColumns="False" Margin="0,3,4,0">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Visit Date" Binding="{Binding visitDate}" Width="80" IsReadOnly="True" />
-                <DataGridTextColumn Header="Medicines Given" Binding="{Binding medication}" Width="AUTO" IsReadOnly="True"/>
-                <DataGridTextColumn Header="Disease" Binding="{Binding disease}" Width="100" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Visit Date" Binding="{Binding visitDate}" Width="100" IsReadOnly="True" TextBlock.TextAlignment="Right" TextBlock.FontStyle="Oblique" TextBlock.Foreground="DarkCyan"/>
+                <DataGridTextColumn Header="Medicines Given" Binding="{Binding medication}" Width="200" IsReadOnly="True" TextBlock.TextAlignment="Center" TextBlock.FontStyle="Oblique" TextBlock.Foreground="DarkCyan"/>
+                <DataGridTextColumn Header="Disease" Binding="{Binding disease}" Width="150" IsReadOnly="True" TextBlock.TextAlignment="Center" TextBlock.FontStyle="Oblique" TextBlock.Foreground="DarkCyan"/>
+                <DataGridTextColumn Header="Special Note" Binding="{Binding note}" Width="300" IsReadOnly="True" TextBlock.TextAlignment="Center" TextBlock.FontStyle="Oblique" TextBlock.Foreground="DarkCyan"/>
             </DataGrid.Columns>
             
         </DataGrid>

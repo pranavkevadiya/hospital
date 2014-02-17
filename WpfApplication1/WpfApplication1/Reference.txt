@@ -11,3 +11,6 @@ Dim ada As New MySqlDataAdapter(lv_sqlCommand)
 
         ada.Fill(ds, "visitInformation")
 
+
+            <TextBox Height="23" HorizontalAlignment="Left" Margin="22,27,0,0" Name="TextBox1" VerticalAlignment="Top" Width="120" Grid.Column="1" Style="{StaticResource textBoxStyle}"/>
+

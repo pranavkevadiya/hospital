@@ -5,11 +5,11 @@ Public Class VisitInfoPage
     Public Sub populateVisitDetails(ByRef con As MySqlConnection, ByVal patientId As String, ByRef lastVisitTab As TabItem)
 
         Dim lastVisitsControl = New VisitInfoPage()
-        Dim visits As List(Of NewLifeHospital.VisitInformation) = New List(Of NewLifeHospital.VisitInformation)
+        Dim visits As List(Of VisitInformation) = New List(Of VisitInformation)
 
 
         Try
-            Dim lastvisits_sql As String = "select visitdate,diseasename,medicationid from visitinfo NATURAL JOIN disease where patientid=@patient"
+            Dim lastvisits_sql As String = "select visitdate,diseasename,medicationid,notes from visitinfo NATURAL JOIN disease where patientid=@patient"
             DataAccess.HandleConnection(con)
             Dim lv_sqlCommand = New MySqlCommand(lastvisits_sql, con)
             lv_sqlCommand.Parameters.AddWithValue("@patient", patientId)
@@ -24,7 +24,9 @@ Public Class VisitInfoPage
                     Dim visit As VisitInformation = New VisitInformation()
                     visit.visitDate = lastvisitData.GetDateTime("visitDate").ToString("dd-MMM-yyyy")
                     visit.disease = lastvisitData.GetString("diseaseName")
+                    visit.note = lastvisitData.GetString("notes")
                     Dim medicationId = lastvisitData.GetInt16("medicationId")
+
 
                     Dim localCon = con.Clone()
                     localCon.Open()
@@ -48,6 +50,8 @@ Public Class VisitInfoPage
                     visits.Add(visit)
                 End While
                 lastvisitData.Close()
+                con.Close()
+
 
             End If
         Catch ex As MySql.Data.MySqlClient.MySqlException
